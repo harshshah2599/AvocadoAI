@@ -36,7 +36,9 @@ def analyze_content_with_llm(text):
     
     response = model.generate_content(prompt)
     # Convert response to dictionary format
-    analysis = response.to_dict()  
+    analysis = response.to_dict()
+
+    print(analysis)
 
     return analysis
 
@@ -85,6 +87,7 @@ def main():
 
     # Update the original JSON file with extracted 'text' subpart
     update_json('analyzed_articles.json', 'articles.json')
+    
 
 if __name__ == "__main__":
     main()
