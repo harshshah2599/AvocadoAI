@@ -10,7 +10,7 @@ AvocadoAI is a cutting-edge app aimed at leveraging advanced generative AI model
 - [Usage](#usage)
 - [Code Structure](#code-structure)
 - [Approach](#approach)
-- [Challenges Faces](#challenges-faced)
+- [Challenges Faced](#challenges-faced)
 - [Scaling](#ideas-for-scaling-the-system)
 
 
@@ -79,14 +79,14 @@ The project includes the following main components:
 
 ## Approach
 
-### Data Extraction
-The project starts with the extraction of article data using the `extraction.py` script. This script fetches and prepares the data for analysis.
+- ### Data Extraction
+    The project starts with the extraction of article data using the `extraction.py` script. This script fetches and prepares the data for analysis.
 
-### Generative AI Analysis
-Utilizing Google's Gemini API, the `analysis.py` script analyzes the extracted texts. The AI model identifies named entities and key phrases in the medical texts, providing detailed insights. The analyzed data is then saved into a JSON file for further use.
+- ### Generative AI Analysis
+    Utilizing Google's Gemini API, the `analysis.py` script analyzes the extracted texts. The AI model identifies named entities and key phrases in the medical texts, providing detailed insights. The analyzed data is then saved into a JSON file for further use.
 
-### Frontend Integration
-To facilitate user interaction, a Streamlit frontend (`hello.py`) is implemented. This allows users to run and test the functionalities seamlessly.
+- ### Frontend Integration
+    To facilitate user interaction, a Streamlit frontend (`hello.py`) is implemented. This allows users to run and test the functionalities seamlessly.
 
 ## Challenges Faced
 
