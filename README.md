@@ -9,6 +9,9 @@ AvocadoAI is a cutting-edge app aimed at leveraging advanced generative AI model
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Structure](#code-structure)
+- [Approach](#approach)
+- [Challenges Faces](#challenges-faced)
+- [Scaling](#ideas-for-scaling-the-system)
 
 
 ## Project Overview
@@ -73,3 +76,29 @@ The project includes the following main components:
 - `fastapi_app`: Contains the FastAPI endpoint created.
 - `articles.json`: Output file where analyzed data is stored.
 - `hello.py`: The main file which should be executed and consists of the Streamlit frontend.
+
+## Approach
+
+### Data Extraction
+The project starts with the extraction of article data using the `extraction.py` script. This script fetches and prepares the data for analysis.
+
+### Generative AI Analysis
+Utilizing Google's Gemini API, the `analysis.py` script analyzes the extracted texts. The AI model identifies named entities and key phrases in the medical texts, providing detailed insights. The analyzed data is then saved into a JSON file for further use.
+
+### Frontend Integration
+To facilitate user interaction, a Streamlit frontend (`hello.py`) is implemented. This allows users to run and test the functionalities seamlessly.
+
+## Challenges Faced
+
+1. **API Integration:** Integrating with the Gemini API posed initial challenges in handling responses and ensuring proper error handling.
+2. **Data Serialization:** Managing the serialization of complex AI response objects into JSON format required careful structuring.
+3. **Scalability:** Designing the system to handle a large volume of articles and ensuring efficient processing was a key challenge.
+4. **Data Scraping:** Extracting data from medical blogs was challenging as the text was not directly accessible through normal HTML parsers. We had to implement custom scraping methods to accurately retrieve the content.
+
+## Ideas for Scaling the System
+
+1. **Parallel Processing:** Implement parallel processing to handle multiple article analyses simultaneously, reducing overall processing time.
+2. **Cloud Deployment:** Deploy the system on a cloud platform to leverage scalable resources and handle increased load efficiently.
+3. **Enhanced Caching:** Implement caching mechanisms to store intermediate results and reduce redundant processing.
+4. **API Rate Limiting:** Introduce rate limiting and batching for API requests to manage quota limits effectively and ensure smooth operation.
+
