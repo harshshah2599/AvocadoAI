@@ -2,7 +2,7 @@
 
 AvocadoAI is a cutting-edge application designed to leverage advanced generative AI models for analyzing and extracting meaningful insights from medical or health related blog articles. The project encompasses functionalities for data extracction, interaction with AI models, FastAPI for creating endpoints, and storage of analysis results.
 
-## DEMO - [click here](https://www.loom.com/share/3688f2413d86433b9edf8dc46125fc48?sid=4aa1e6f9-ab06-4ae1-84ee-aa6ebb38f383)
+#### DEMO - [click here](https://www.loom.com/share/3688f2413d86433b9edf8dc46125fc48?sid=4aa1e6f9-ab06-4ae1-84ee-aa6ebb38f383)
 
 ## Table of Contents
 
