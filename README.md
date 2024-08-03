@@ -1,4 +1,4 @@
-# AvocadoAI
+# AvocadoAI 🥑
 
 AvocadoAI is a cutting-edge app aimed at leveraging advanced generative AI models to analyze and extract meaningful insights from article texts focusing on medical blogs online. The project includes functionalities to process data, interact with AI models, and store analysis results.
 
@@ -9,8 +9,7 @@ AvocadoAI is a cutting-edge app aimed at leveraging advanced generative AI model
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Structure](#code-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 
@@ -28,17 +27,20 @@ AvocadoAI integrates with Google's Gemini API to analyze medical texts. It extra
 To set up AvocadoAI, follow these steps:
 
 1. **Clone the Repository:**
-   git clone https://github.com/your-username/AvocadoAI.git
-   cd AvocadoAI
-
-2.	Create a Virtual Environment:
+```sh
+    git clone https://github.com/your-username/AvocadoAI.git
+    cd AvocadoAI
+```
+3.	Create a Virtual Environment:
+```sh
    python -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
-
-3.	Install Dependencies:
+```
+5.	Install Dependencies:
+```sh
    pip install -r requirements.txt
-
-4.	Set Up API Key:
+```
+7.	Set Up API Key:
     Ensure you have a valid API key for the Google Gemini API. Update the api_key parameter in the relevant script.
     Update the .env file and replace "your-api-key" with your actual API key.
 
