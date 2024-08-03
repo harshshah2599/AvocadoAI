@@ -46,8 +46,13 @@ To set up AvocadoAI, follow these steps:
 
 
 ## Usage
-For each end user to test the functionalities and see the results, the application is wrapped around Streamlit as its frontend. To run the application, simply use the command below:
+For ease of end user to test the functionalities and see the results, the application is wrapped around Streamlit as its frontend. To run the application, simply use the command below:
 
+Make sure you are in the main directory:
+```sh
+cd AvocadoAI
+```
+Run the below command:
 ```sh
 streamlit run hello.py
 ```
