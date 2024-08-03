@@ -41,8 +41,8 @@ To set up AvocadoAI, follow these steps:
    pip install -r requirements.txt
 ```
 7.	Set Up API Key:
-    Ensure you have a valid API key for the Google Gemini API. Update the api_key parameter in the relevant script.
-    Update the .env file and replace "your-api-key" with your actual API key.
+    - Ensure you have a valid API key for the Google Gemini API. Update the api_key parameter in the relevant script.
+    - Update the .env file and replace "your-api-key" with your actual API key.
 
 
 ## Usage
