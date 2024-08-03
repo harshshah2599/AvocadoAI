@@ -71,6 +71,8 @@ This will redirect you the port where streamlit is running. If not redirected, g
 
 ## Code Structure
 
+!Disclaimer: The project structure can be significantly improved. It was overlooked due to time constraints.
+
 The project includes the following main components:
 
 - `analysis.py`: Script for analyzing content using the generative AI model and saving the results.
