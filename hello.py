@@ -113,7 +113,8 @@ def show_fastapi():
                         analysis_str = json.loads(response.text)
                         # analysis = json.loads(analysis_str)  # Attempt to parse the analysis JSON
                         # st.write(analysis_str)
-
+                        st.success("Analysis Complete")
+                        st.write("**Analysis Result:**")
                         print_analysis = analysis_str['analysis']['candidates'][0]['content']['parts'][0]['text']
 
                         st.write(print_analysis)
@@ -147,8 +148,7 @@ def show_fastapi():
                         #         print("No content parts available.")
                         # else:
                         #     print("No candidates available.")
-                        st.success("Analysis Complete")
-                        st.write("**Analysis Result:**")
+                        
                         st.markdown(text_content) 
                         
                         
