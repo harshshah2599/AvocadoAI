@@ -14,19 +14,19 @@ st.set_page_config(
 def show_homepage():
     st.title("Welcome to the AvocadoAI 🥑")
     st.write("""
-    Welcome to the Article Analysis Application! This tool helps you extract, analyze, and review articles using state-of-the-art technologies.
+    This tool helps you extract, analyze, and review articles using state-of-the-art technologies.
 
     **Features:**
-    - **Extraction**: Extracts data from various articles using scraping techniques.
+    - **Extraction**: Extracts data from various articles from the Flo app's blogs using scraping techniques.
     - **Analysis**: Analyzes the extracted content using advanced generative AI models to identify main topics, claims, medical terms, conditions, and treatments.
-    - **FastAPI Integration**: Provides a REST API endpoint for analyzing article content programmatically.
+    - **FastAPI Integration**: Provides a API endpoint for analyzing article content programmatically.
 
     **How to Use:**
     1. Navigate to the "Extraction, Analysis, FastAPI" page to explore each functionality.
     2. Use the tabs on that page to switch between different sections and learn more about their features.
 
     **Getting Started:**
-    - Ensure that all necessary components are set up, including the extraction script, analysis script, and FastAPI server.
+    - Ensure that all necessary components are set up, including the FastAPI server.
     - Follow the instructions in each section to perform article analysis and explore the features.
 
     If you have any questions or need further assistance, feel free to contact support or refer to the documentation.
@@ -194,6 +194,7 @@ def main():
     st.title("Avocado Health")
 
     # Sidebar for navigation
+    st.sidebar.image('avocado.png')
     page = st.sidebar.selectbox("Select a Page", ["Homepage", "AvocadoAI"])
 
     if page == "Homepage":
