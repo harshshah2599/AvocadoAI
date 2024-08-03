@@ -12,6 +12,7 @@ AvocadoAI is a cutting-edge app aimed at leveraging advanced generative AI model
 - [Approach](#approach)
 - [Challenges Faced](#challenges-faced)
 - [Scaling](#ideas-for-scaling-the-system)
+- [Conclusion](#conclusion)
 
 
 ## Project Overview
@@ -102,3 +103,6 @@ The project includes the following main components:
 3. **Enhanced Caching:** Implement caching mechanisms to store intermediate results and reduce redundant processing.
 4. **API Rate Limiting:** Introduce rate limiting and batching for API requests to manage quota limits effectively and ensure smooth operation.
 
+## Conclusion
+
+AvocadoAI presents a powerful tool for analyzing medical texts using advanced AI models. Despite the challenges faced, such as API integration and data scraping, the project successfully demonstrates the potential of leveraging AI for detailed text analysis. With further enhancements and scalability considerations, AvocadoAI can evolve into a robust solution for large-scale text analysis tasks.
