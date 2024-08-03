@@ -56,10 +56,12 @@ Start your FastAPI server locally:
 ```sh
 uvicorn fastapi_app:app --reload
 ```
-Run the below command:
+Run the below command in a new terminal:
 ```sh
 streamlit run hello.py
 ```
+
+This will redirect you the port where streamlit is running. If not redirected, go to http://localhost:8501/ to view the application.
 
 ## Code Structure
 
