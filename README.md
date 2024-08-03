@@ -1,6 +1,6 @@
 # AvocadoAI 🥑
 
-AvocadoAI is a cutting-edge application designed to leverage advanced generative AI models for analyzing and extracting meaningful insights from medical or health related blog articles. The project encompasses functionalities for data processing, interaction with AI models, FastAPI for creating endpoints, and storage of analysis results.
+AvocadoAI is a cutting-edge application designed to leverage advanced generative AI models for analyzing and extracting meaningful insights from medical or health related blog articles. The project encompasses functionalities for data extracction, interaction with AI models, FastAPI for creating endpoints, and storage of analysis results.
 
 ## Table of Contents
 
